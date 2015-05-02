@@ -1,8 +1,6 @@
 # Provisioning AMI
 
 ```
-#!/bin/bash
-
 # install docker (do we need it?)
 sudo yum update
 sudo yum -y install docker
