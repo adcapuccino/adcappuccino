@@ -19,4 +19,7 @@ curl -sL https://rpm.nodesource.com/setup | bash -
 yum install -y nodejs
 yum install gcc-c++ make
 exit
+
+# git
+sudo yum install git
 ```
