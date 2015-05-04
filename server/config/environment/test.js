@@ -5,6 +5,6 @@
 module.exports = {
   // MongoDB connection options
   mongo: {
-    uri: 'mongodb://localhost/adcappuccino-test'
+      uri: 'mongodb://dev:dev@ds031822.mongolab.com:31822/dev'
   }
 };
