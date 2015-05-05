@@ -4,8 +4,10 @@
   "main": "server/app.js",
   "dependencies": {
     "body-parser": "~1.5.0",
+    "bower": "^1.4.1",
     "composable-middleware": "^0.3.0",
     "compression": "~1.0.1",
+    "connect-livereload": "~0.4.0",
     "connect-mongo": "^0.4.1",
     "cookie-parser": "~1.0.1",
     "ejs": "~0.8.4",
@@ -22,7 +24,6 @@
     "passport-facebook": "latest",
     "passport-google-oauth": "latest",
     "passport-local": "~0.1.6",
-    "connect-livereload": "~0.4.0",
     "serve-favicon": "~2.0.1"
   },
   "devDependencies": {
@@ -84,7 +85,7 @@
   "scripts": {
     "start": "node server/app.js",
     "test": "grunt test",
-    "postinstall": "bower install && grunt",
+    "postinstall": "./node_modules/bower/bin/bower install",
     "update-webdriver": "node node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update"
   },
   "private": true
