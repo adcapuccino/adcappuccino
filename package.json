@@ -22,6 +22,7 @@
     "passport-facebook": "latest",
     "passport-google-oauth": "latest",
     "passport-local": "~0.1.6",
+    "connect-livereload": "~0.4.0",
     "serve-favicon": "~2.0.1"
   },
   "devDependencies": {
@@ -60,7 +61,6 @@
     "grunt-open": "~0.2.3",
     "open": "~0.0.4",
     "jshint-stylish": "~0.1.5",
-    "connect-livereload": "~0.4.0",
     "karma-ng-scenario": "~0.1.0",
     "karma-firefox-launcher": "~0.1.3",
     "karma-script-launcher": "~0.1.0",
